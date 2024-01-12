@@ -1,0 +1,125 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/OpenSans/OpenSans-VariableFont_wdth\wght.ttf);
+}
+/* : Colors */
+:root {
+  --tolkientext: #c8ece9;
+  --promisecolor: #d3d4e4;
+  --footerlinks: rgba(255, 255, 255, 0.5);
+  --buttons: #ed4933;
+  --backgroundblue: #21b2a6;
+  --backgroundblack1: rgba(0, 0, 0, 0.08);
+  --backgrundblack2: rgba(0, 0, 0, 0.15);
+  --backgrundblack3: rgba(0, 0, 0, 0.22);
+  --bigbox: #505393;
+  --box1: #d3d4e4;
+  --box2: rgba(0, 0, 0, 0.04);
+  --box3: rgba(0, 0, 0, 0.07);
+  --box4: rgba(0, 0, 0, 0.11);
+  --box5: rgba(0, 0, 0, 0.14);
+  --box6: rgba(0, 0, 0, 0.18);
+  --box7: rgba(0, 0, 0, 0.21);
+  --footer: rgba(29, 36, 42, 0.9);
+  --icons: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: OpenSans, sans-serif;
+  color: white;
+}
+
+/* ! Header */
+
+header {
+  background: url(../img/header.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+/* -Nav */
+header nav {
+  text-align: right;
+  padding: 2.5rem 5rem;
+  font-size: 1.4rem;
+  letter-spacing: 3.12px;
+  text-transform: uppercase;
+  margin-bottom: 31.6rem;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+/* -article */
+header article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+header article h1 {
+  font-size: 2.8rem;
+  letter-spacing: 6.825px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 10px;
+  margin-bottom: 3.1rem;
+}
+
+header article p {
+  font-size: 1.733rem;
+  line-height: 165%;
+  letter-spacing: 3.9px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 3.4rem;
+}
+
+.break::after {
+  content: "\A";
+  white-space: pre;
+}
+
+/* - Class Button */
+.button {
+  background-color: var(--buttons);
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 3.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.2rem 3.8rem;
+  border-radius: 3px;
+}
+
+/* !Section tolkien */
+
+.tolkien {
+  background-color: var(--backgroundblue);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10.4rem 15rem;
+}
+
+.tolkien h2 {
+  font-size: 2.34rem;
+  font-weight: 800;
+  line-height: 175%;
+  text-transform: uppercase;
+  letter-spacing: 5.265px;
+  text-align: center;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.13);
+  margin-bottom: 2.3rem;
+}
