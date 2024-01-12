@@ -313,3 +313,51 @@ footer {
   align-items: center;
   padding-top: 8.2rem;
 }
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20vw;
+  margin-bottom: 4.3rem;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.copyright p {
+  font-size: 1.4rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: var(--footerlinks);
+  letter-spacing: 3.12px;
+}
+
+.copyright p:first-child {
+  border-right: 2px solid var(--footerlinks);
+  padding-right: 1.4rem;
+}
+
+.copyright a {
+  color: var(--footerlinks);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--footerlinks);
+}
+
+/* ! Hover effekte */
+
+.button:hover {
+  background-color: rgb(245, 92, 72);
+}
+
+.copyright a:hover {
+  border-bottom: none;
+}
+
+.icons:hover {
+  cursor: pointer;
+  color: rgb(211, 211, 211);
+}
