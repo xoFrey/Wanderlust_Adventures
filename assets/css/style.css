@@ -49,6 +49,9 @@ header nav {
   text-transform: uppercase;
   margin-bottom: 31.6rem;
 }
+
+/* # menu burger menu oben rechts fix  */
+
 header nav a {
   color: white;
   text-decoration: none;
