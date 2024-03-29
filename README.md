@@ -18,6 +18,7 @@
 <ul>
 <li><samp>Responsive for desktop and tablet and mobile</samp></li>
 <li><samp>Hover effects</samp></li>
+  <li><samp>Flexbox</samp></li>
 </ul>
 
 
