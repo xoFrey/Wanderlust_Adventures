@@ -48,6 +48,19 @@ header nav {
   letter-spacing: 3.12px;
   text-transform: uppercase;
   margin-bottom: 31.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+header nav div {
+  border-bottom: 1px solid white;
+  padding: 5px;
+  width: 30px;
+}
+
+.burger {
+  display: none;
 }
 
 /* # menu burger menu oben rechts fix  */
@@ -430,6 +443,12 @@ svg {
 /* # Mobile  */
 
 @media only screen and (max-width: 576px) {
+  .burger {
+    display: block;
+    padding-right: 0;
+    margin-right: -20px;
+  }
+
   header nav a {
     display: none;
   }
