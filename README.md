@@ -1,4 +1,4 @@
-<h1 align="center"><samp>MovieLand Project</samp> </h1>
+<h1 align="center"><samp>Wanderlust Project</samp> </h1>
 <p align="center"> 
   <a href="https://github.com/xoFrey" target="_blank"> <img width="40" align="center" src="./assets/img/icons8-github-64.png"/></a>
   <a href="https://wanderlust-adventures-inky.vercel.app" target="_blank"> <img width="45" align="center" src="./assets/img/icons8-livepage-64.png"/></a>
