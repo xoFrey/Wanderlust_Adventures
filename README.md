@@ -24,7 +24,7 @@
 <h2><samp>Screenshot</samp></h2>
 
 <p align="center">
-<img width="500" height="300" src="./assets/img/Desktop.png"/><img width="300" src="./assets/img/Mobile.png"/>
+<img width="500" src="./assets/img/Desktop.png"/><img width="300" src="./assets/img/Mobile.png"/>
 </p>
 
 
